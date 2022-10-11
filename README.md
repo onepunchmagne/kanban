@@ -27,3 +27,6 @@ Pour information, tu as le droit d'utiliser tous les outils que tu veux : Javado
 
 ## Prérequis
 Java 11 et Maven.
+
+## Tests
+Oui
