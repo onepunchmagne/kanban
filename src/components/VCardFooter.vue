@@ -12,7 +12,7 @@
 						class="button-add"
 						@click="addNewCard"
 				>
-					Добавить карточку
+					Add new card
 				</button>
 				<v-close :onClickFunction="switchAddCardForm"/>
 			</div>
@@ -22,7 +22,7 @@
 				@click="switchAddCardForm"
 				class="button">
 			<button class="inner">
-				Добавить карточку
+				Switch add card form
 			</button>
 		</div>
 	</footer>
