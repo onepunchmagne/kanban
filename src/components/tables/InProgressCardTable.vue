@@ -36,5 +36,5 @@ onMounted(() => loadCards());
 @import '../../style/variables';
 @import '../../style/mixins';
 
-@include table-settings;
+//@include table-settings;
 </style>

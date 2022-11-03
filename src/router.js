@@ -7,18 +7,8 @@ const routes = [
 	{
 		path: '/',
 		redirect: {
-			name: 'TheLogin'
+			name: 'TheMainBoard'
 		}
-	},
-	{
-		path: '/login',
-		component: TheLogin,
-		name: 'TheLogin'
-	},
-	{
-		path: '/registration',
-		component: TheRegistration,
-		name: 'TheRegistration'
 	},
 	{
 		path: '/kanban',
