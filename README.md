@@ -3,7 +3,7 @@
 Bravo ! Si tu es là, c'est que tu as retenu notre attention ! On aimerait maintenant voir comment cela se passe avec un exercice pratique.
 Bonne chance !
 
-## But de l'exercice
+## But de l'exercice   
 
 Implémenter une API HTTP qui permet de gérer un kanban : 
 
