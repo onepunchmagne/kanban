@@ -1,11 +1,15 @@
 package fr.lille.ippon.challenge.kanban.domain;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
-@AllArgsConstructor
 public class Task {
+
+    public Task(String title) {
+        if (title == null || title.isBlank())
+            throw new IllegalArgumentException();
+        this.title =  title;
+    }
 
     private String title;
 
