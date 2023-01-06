@@ -1,4 +1,4 @@
-package fr.lille.ippon.challenge.kanban.http.swagger;
+package fr.lille.ippon.challenge.kanban.infrastructure.swagger;
 
 import java.time.LocalDate;
 import java.time.ZonedDateTime;

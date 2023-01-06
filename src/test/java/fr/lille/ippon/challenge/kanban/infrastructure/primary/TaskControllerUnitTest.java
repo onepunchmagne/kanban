@@ -1,4 +1,4 @@
-package fr.lille.ippon.challenge.kanban.http.api;
+package fr.lille.ippon.challenge.kanban.infrastructure.primary;
 
 import fr.lille.ippon.challenge.kanban.domain.Task;
 import org.junit.jupiter.api.Test;

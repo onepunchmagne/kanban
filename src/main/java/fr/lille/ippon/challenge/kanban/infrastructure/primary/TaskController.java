@@ -1,5 +1,6 @@
-package fr.lille.ippon.challenge.kanban.http.api;
+package fr.lille.ippon.challenge.kanban.infrastructure.primary;
 
+import fr.lille.ippon.challenge.kanban.application.TaskApplicationService;
 import fr.lille.ippon.challenge.kanban.domain.Task;
 import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -10,10 +11,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/tasks")
 public class TaskController {
 
+    private final TaskApplicationService service;
+
+    public TaskController(TaskApplicationService service) {
+        this.service = service;
+    }
+
     @GetMapping
     public List<Task> getTasks() {
-        // TODO faire fonctionner. Refactorer ?
-        return List.of(new Task("my first task"));
+        return service.getAll();
     }
 
 }

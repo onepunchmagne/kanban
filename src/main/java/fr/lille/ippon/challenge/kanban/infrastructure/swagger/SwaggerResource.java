@@ -1,4 +1,4 @@
-package fr.lille.ippon.challenge.kanban.http.swagger;
+package fr.lille.ippon.challenge.kanban.infrastructure.swagger;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
